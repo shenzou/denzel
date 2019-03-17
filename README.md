@@ -78,6 +78,16 @@ He won 2 Oscars. [Another 82 wins & 166 nominations](https://www.imdb.com/name/n
 * API should listen locally the port `9292`.
 * Data should be stored in MongoDB. Backed either with a DaaS: [mLab](https://mlab.com), [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) etc... Either with a [container Docker](https://hub.docker.com/r/mvertes/alpine-mongo).
 * To test and check your API, you should use a client like [Insomnia](https://insomnia.rest) or [Postman](https://www.getpostman.com/products)
+* Deploy the API with a serverless cloud service: [Netlify](https://www.netlify.com), [Now](https://zeit.co/now) etc...
+
+### Suggested node modules
+
+* [express](https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework for node
+* [mongodb](https://www.npmjs.com/package/mongodb) - Mongo DB Native NodeJS Driver
+* [dotenv](https://www.npmjs.com/package/dotenv) - Loads environment variables from .env for nodejs projects
+* [nodemon](https://www.npmjs.com/package/nodemon) - Monitor for any changes in your node.js application and automatically restart the server - perfect for development 
+* [graphql](https://www.npmjs.com/package/graphql) - A reference implementation of GraphQL for JavaScript
+* [graphql-tools](https://www.npmjs.com/package/graphql-tools) - Build, mock, and stitch a GraphQL schema using the schema language 
 
 ### REST endpoints to implement
 
