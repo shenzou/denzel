@@ -1,0 +1,13 @@
+{
+  "name": "denzel",
+  "version": "0.0.1",
+  "description": "The must-watch Denzel's movies",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "node-fetch": "^2.3.0",
+    "p-limit": "^2.2.0",
+    "p-settle": "^2.1.0"
+  }
+}
