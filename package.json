@@ -4,13 +4,14 @@
   "description": "The must-watch Denzel's movies",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-<<<<<<< HEAD
     "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
     "mongodb": "^3.1.13",
-=======
->>>>>>> 879c7d1151202bc373189adfb0aeed76a4f2d582
     "node-fetch": "^2.3.0",
     "p-limit": "^2.2.0",
-    "p-settle": "^2.1.0"
+    "p-settle": "^2.1.0",
+    "request": "^2.88.0"
   }
 }
